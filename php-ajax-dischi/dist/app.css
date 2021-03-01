@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 90px;
+  background-color: black;
+}
+
+main {
+  height: 800px;
+  background-color: lightgreen;
+}
+
+.img {
+  height: 80px;
+}
+
+.mir {
+  height: 500px;
+  display: flex;
+}
+
+.one{
+  /* margin-left: 30px;
+    margin-right: 30px; */
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  justify-content: space-between;
+}
+.two{
+  height: 264px;
+  width: 196px;
+  background-color: red;
+  margin: 9px;
+  margin-top: 38px;
+}

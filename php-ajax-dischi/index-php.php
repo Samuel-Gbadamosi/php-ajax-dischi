@@ -37,7 +37,7 @@ include 'db.php';
 
 
         <div class="two">
-            <img src="<?php echo $s['img']  ?>" 
+            <img class="img" src="<?php echo $s['img']  ?>"
           <p> Title: <?php echo $tit = $s['title'] ?></p>
           <p> Artist:<?php echo $art = $s['artist'] ?></p>
           <p>Year :<?php echo $yr = $s['year'] ?></p>

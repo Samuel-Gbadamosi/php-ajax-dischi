@@ -43,7 +43,7 @@ include 'db.php';
             <h2>Title :{{s.title}}</h2>
             <span>Artist :{{s.artist}}</span>
             <p> Released Year :{{s.year}}</p>
-            <p v-if= "s.year == 2019"> Click to watch my video <a href="">{{s.link}}</a> </p>
+           
 
 
 

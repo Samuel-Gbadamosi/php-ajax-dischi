@@ -41,6 +41,14 @@ include 'db.php';
           <p> Title: <?php echo $tit = $s['title'] ?></p>
           <p> Artist:<?php echo $art = $s['artist'] ?></p>
           <p>Year :<?php echo $yr = $s['year'] ?></p>
+          <?php if ($s['link']) {
+            ?>
+            <p> click link to watch my video <?php echo $s['link'] ?></p>
+
+
+            <?php
+          } ?>
+
 
 
 
